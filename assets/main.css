@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.side-menu {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
+    height: 100vh;
+    position: fixed;
+}
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.side-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+}
+.side-menu a:hover {
+    background-color: #ddd;
+}
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    width: 100%;
+}
+
+
